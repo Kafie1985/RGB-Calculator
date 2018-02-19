@@ -1,0 +1,91 @@
+body {
+    background-color: darkgray;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    grid-template-areas: "top top top " "middle middle middle " "bottom bottom bottom";
+}
+
+.wrapper {
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px;
+    background-color: ghostwhite;
+}
+
+.page {
+    background-image: url("86484531.jpg");
+}
+
+div {
+    border: 2px solid black;
+    text-align: center;
+    padding: 25px;
+    margin: auto;
+    max-width: 50%;
+}
+
+#red {
+    padding: 15px;
+    color: black;
+    background: red;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#blue {
+    padding: 15px;
+    color: black;
+    background: blue;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#green {
+    padding: 15px;
+    color: black;
+    background: green;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+p {
+    border: 2px solid green;
+    font-size: 25px;
+}
+
+#red-entry {
+    padding: 10px;
+    background-color: lightgray;
+    color: red;
+    font-weight: 900;
+}
+
+#blue-entry {
+    padding: 10px;
+    background-color: lightgray;
+    color: blue;
+    font-weight: 900;
+}
+
+#green-entry {
+    padding: 10px;
+    background-color: lightgray;
+    color: green;
+    font-weight: 900;
+}
+
+#div-a {
+    background-color: white;
+}
+
+#div-b {
+    background-color: white;
+}
+
+#div-c {
+    background-color: white;
+}
+
+.ulist-1 {
+    background-color: lightpink;
+    padding: 5px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RGB Color-Calculator</title>
+    <link rel="stylesheet" href="play.css">
+</head>
+
+<body>
+    <div class="page">
+
+        <div class="wrapper" id="wrapper">
+            <h1>RGB Color-Calculator</h1>
+            <ul class="ulist-1">
+                <div class="box-a" id="div-a">
+                    <button id="red" type="button" onclick="redbtn">Red</button>
+
+                    <input id="red-entry" type="text" size="3" required minlength="0" maxlength="3">
+                </div>
+                <p class="box d" id="redp">RED</p>
+                
+                <div class="box c" id="div-c">
+                    <button id="green" type="button" onclick="greenbtn">Green</button>
+
+                    <input id="green-entry" type="text" size="3" required minlength="0" maxlength="3">
+
+                </div>
+                <p class="box f" id="greenp">GREENS</p>
+                <div class="box b " id="div-b">
+                    <button id="blue" type="button" onclick="bluebtn">Blue</button>
+
+                    <input id="blue-entry" type="text" size="3" required minlength="0" maxlength="3">
+
+
+                </div>
+                <p class="box e" id="bluep">BLUE</p>
+
+            </ul>
+            <div class="box f" id="results"><span>Results</span></div>
+
+        </div>
+    </div>
+</body>
+<script src="play.js"></script>
+
+</html>
